@@ -1,0 +1,64 @@
+.container {
+  width: 280px;
+  height: 3000px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  position: fixed;
+}
+.sidebar_wrapper {
+  /* height: 1000px; */
+}
+.Link_wrapper {
+  padding: 40px;
+}
+.menu {
+  font-size: large;
+  color: white;
+  margin: 30px;
+padding-top: 30px;
+}
+.nav__list li {
+  margin: 30px;
+  
+}
+
+.logout {
+  display: flex;
+  padding-left: 52px;
+  padding-top: 20px;
+}
+.logout div {
+  margin: 5px;
+  cursor: pointer;
+}
+.logout p {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+}
+.dropdown {
+  padding-left: 58px;
+}
+
+@media only screen and (max-width: 1271px) {
+  .container {
+    width: 70px;
+  }
+  .text {
+    display: none;
+  }
+  .sideBarIcon {
+    display: none;
+  }
+  .menu {
+    font-size: large;
+    color: white;
+    margin-left: -10px;
+  }
+  .dropdown {
+    padding-left: 15px;
+  }
+  .logout{
+    padding-left: 15px;
+  }
+}

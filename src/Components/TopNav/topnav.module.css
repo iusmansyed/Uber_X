@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 80px;
+  background-color: var(--primary-color);
+  line-height: 20px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000000000000000000;
+}
+.carIcon {
+  display: flex;
+  /* flex-direction: row; */
+  margin: 2px;
+  padding-left: 66px;
+}
+.subHead {
+  display: flex;
+  padding-top: 30px;
+  position: relative;
+  left: -10px;
+}
+
+.carIcon div {
+  margin: 5px;
+}
+.search__box {
+  width: 80%;
+  margin-left: 50px;
+}
+.search__box input {
+  width: 50%;
+}
+.search__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background: #0b0c28 !important;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  /* margin-left: -100px; */
+}
+.search__box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.search__box input::placeholder {
+  color: white;
+}
+
+.search__box span i {
+  color: white;
+}
+.searchbar {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 70px;
+  /* margin-top: -40px; */
+}
+.top_right {
+  display: flex;
+  align-items: center;
+}
+.top_right div {
+  margin: 20px;
+}
+.notification i {
+  color: white;
+  font-size: 1.55rem;
+  cursor: pointer;
+}
+.badge {
+  position: relative;
+ top: 3px;
+  width: 15px;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  color: white;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 1271px) {
+  .searchbar {
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+    left: -133px;
+  }
+  .subHead {
+    position: relative;
+    left: -50px;
+  }
+  .text h2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .top_right {
+    position: relative;
+    left: -30px;
+  }
+  .search__box{
+    position: absolute;
+    width: 300px;
+  }
+  
+}
+@media only screen and (max-width: 425px) {
+  .top_right {
+    position: relative;
+    left: -30px;
+  }
+  .search__box{
+    position: absolute;
+    width: 150px;
+  }
+  
+}
+@media only screen and (max-width: 408px) {
+  .top_right {
+    position: relative;
+    left: -30px;
+  }
+  
+}
+@media only screen and (max-width: 378px) {
+  .top_right {
+    position: relative;
+    left: -15px;
+  }
+}
+@media only screen and (max-width: 346px) {
+  .top_right {
+    position: relative;
+    left: -10px;
+  }
+}
+@media only screen and (max-width: 328px) {
+  .top_right {
+    position: relative;
+    left: -20px;
+  }
+  .search__box{
+    position: absolute;
+    width: 130px;
+  }
+}

@@ -1,0 +1,29 @@
+.dropdown button{
+background-color: transparent;
+color: white;
+font-size: x-large;
+font-family: serif;
+border: none;
+margin-top: -20px;
+}
+.compName{
+  font-weight: 200;
+  font-size: large;
+}
+*{
+    color: white;
+  }
+  .btn{
+    padding-left: 3px;
+  }
+  @media only screen and (max-width:1271px) {
+    .compName{
+display: none;
+    }
+    .name{
+      display: none;
+    }
+    .btn i{
+      margin-left: 7px;
+    }
+  }

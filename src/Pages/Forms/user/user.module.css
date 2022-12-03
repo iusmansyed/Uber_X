@@ -1,0 +1,51 @@
+.main_form {
+    border-radius: 12px;
+    width: 60%;
+    position: relative;
+    padding: 12px;
+    left: 20%;
+    top: 5vh;
+    height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--primary-color);
+}
+.x {
+    color: #01d293;
+    text-align: center;
+    position: relative;
+    right: 25px;
+    top: 20px;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-shadow: #01d293 1px 0 4px;
+}
+
+
+  
+  @media only screen and (max-width: 1024px) {
+      
+}
+@media only screen and (max-width: 992px) {
+    .main_form {
+        width: 70%;
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .main_form {
+        
+        height: 90vh;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .main_form {
+      width: 85%;
+      margin-left: -40px;
+    }
+    .x {
+      margin-left: 10%;
+    }
+  }
+  

@@ -1,0 +1,230 @@
+.container {
+    width: 100%;
+    height: 120vh;
+    padding-left: 280px;
+    padding-top: 70px;
+ 
+  }
+  .main_div {
+  
+    /* border-radius: 12px; */
+    padding: 40px;
+  }
+  .main_div h1 {
+    text-align: center;
+    color: white;
+  }
+  .box {
+    width:100% ;
+  }
+  .box_holder {
+    position: relative;
+    top: 15vh;
+  }
+  .box_holder {
+    display: flex; 
+    column-gap: 4rem;
+    /* margin-left: 100px; */
+  }
+  .buttn {
+    margin-left: 60%;
+    margin-top: -20vh;
+  }
+  .buttn button {
+    background-color: #282d60;
+    border: none;
+    width: 130px;
+    height: 5vh;
+    border-radius: 12px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .buttn button:hover {
+    background-color: #131b73;
+    transition: 1s;
+  }
+  @media only screen and (max-width: 1226.36px) {
+    .main_div {
+      margin-left: 290px;
+      width: 70%;
+    }
+    .box_holder {
+      margin-left: 2px;
+    }
+    .buttn {
+      margin-left: 500px;
+    }
+    .buttn {
+      margin-left: 55%;
+      margin-top: -20vh;
+    }
+    
+  }
+  @media only screen and (max-width: 1100px) {
+    .main_div {
+      margin-left: 30px;
+      width: 100%;
+    }
+    .box_holder {
+      margin-left: 2px;
+    }
+    .buttn {
+      margin-left: 500px;
+    }
+  }
+  @media only screen and (max-width: 999px) {
+    
+    .buttn {
+      margin-left: 45%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .main_div {
+      height: 140vh;
+      padding-left: 100px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      padding-left: 180px;
+    }
+    .buttn {
+      margin-left: 350px;
+    }
+    .box{
+      width: 200px;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .main_div {
+      height: 140vh;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      padding-left: 80px;
+    }
+    .buttn {
+      margin-left: 250px;
+    }
+  }
+  @media only screen and (max-width: 604px) {
+    .main_div {
+      height: 140vh;
+      width: 450px;
+      margin-left: 70px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      padding-left: 10px;
+    }
+    .buttn {
+      margin-left: 220px;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .main_div {
+      height: 140vh;
+      margin-left: 70px;
+      width: 400px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      padding-left: 10px;
+    }
+    .buttn {
+      margin-left: 220px;
+    }
+  }
+  @media only screen and (max-width: 510px) {
+    .main_div {
+      height: 140vh;
+      margin-left: 70px;
+      width: 350px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      margin-left: -30px;
+    }
+    .buttn {
+      margin-left: 220px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .main_div {
+      height: 140vh;
+      margin-left: 70px;
+      width: 300px;
+    }
+    .main_div h1{
+      margin-left: -80px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      margin-left: -60px;
+    }
+    .buttn {
+      margin-left: 150px;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .main_div {
+      height: 140vh;
+      margin-left: 70px;
+      width: 250px;
+    }
+    .main_div h1{
+      margin-left: -80px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      margin-left: -85px;
+    }
+    .buttn {
+      margin-left: 125px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .main_div {
+      height: 140vh;
+      margin-left: 70px;
+      width: 200px;
+    }
+    .main_div h1{
+      margin-left: -80px;
+    }
+    .box_holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      margin-left: -85px;
+    }
+    .buttn {
+      margin-left: 105px;
+  margin-top: -30vh;
+  }
+  
+   .box{
+      width: 150px;
+   }
+  }
+  
+  @media only screen and (max-width:1271px) {
+    .container {
+      width: 100%;
+      height: 120vh;
+      padding-left: 60px;
+    }
+  }

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Inter+Tight:wght@300&family=Poppins:wght@100&display=swap");
+
+:root {
+  --primary-color: #181b3a;
+  --secondary-color: #01d293;
+  --body-bg: #0b0c28;
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  --heading-color: #fff;
+  --small-text-color: #808191;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--body-bg);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+.main__layout {
+  margin-left: 270px;
+}
+*::-webkit-scrollbar{
+  background-color: #01d293;
+}
+*::-webkit-scrollbar-thumb {
+  background: #01d293;
+    border-radius: 12px;
+}
+*::-webkit-scrollbar-track{
+  background-color: #0b0c28;
+}

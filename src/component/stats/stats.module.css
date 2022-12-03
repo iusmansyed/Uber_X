@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 120vh;
+  padding-left: 280px;
+  padding-top: 70px;
+}
+
+.chart{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+    padding: 20px;
+}
+.chart div{
+    border: 1px solid white;
+    width: 95%;
+}
+@media only screen and (max-width:1271px) {
+    .container {
+      width: 100%;
+      height: 120vh;
+      padding-left: 60px;
+    }
+  }
